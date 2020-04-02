@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Runner.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D15C0E268D01C2A055EAEEB4F197864E6981F1C8</string>
+				<key>dateExpires</key>
+				<string>12/14/20</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D15C0E268D01C2A055EAEEB4F197864E6981F1C8</string>
+						<key>dateExpires</key>
+						<string>12/14/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>App.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>YW585V7K76</string>
+						<key>name</key>
+						<string>Todd Tarbox</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D15C0E268D01C2A055EAEEB4F197864E6981F1C8</string>
+						<key>dateExpires</key>
+						<string>12/14/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Flutter.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>YW585V7K76</string>
+						<key>name</key>
+						<string>Todd Tarbox</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>YW585V7K76.com.tsquared.bgMonitor</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>YW585V7K76</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>YW585V7K76.com.tsquared.bgMonitor</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>BG Monitor.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>29a8ca39-a4da-4d98-b430-edfba4c1337d</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.tsquared.bgMonitor</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>YW585V7K76</string>
+				<key>name</key>
+				<string>Todd Tarbox</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
