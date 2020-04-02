@@ -156,7 +156,7 @@ class _BGMonitorState extends State<BGMonitor> {
       'userId': '${_user.userId}',
       'action': 'post',
       'bg': '$bgValue',
-      'receivers': [] //ex: 'receivers': ['+15555555555', '+15555555556']
+      'receivers': secrets.bolusReceivers //ex: ['+15555555555', '+15555555556']
     };
 
     Response response =
@@ -195,7 +195,7 @@ class _BGMonitorState extends State<BGMonitor> {
     Map<String, Object> body = {
       'sender': 'BGMonitor',
       'action': 'remind',
-      'receivers': [''] //ex: 'receivers': ['+15555555557']
+      'receivers': secrets.reminderReceivers //ex: ['+15555555557']
     };
 
     Response response =
